@@ -22,9 +22,9 @@ query = st.text_input('Introduzca su búsqueda:')
 # Generar el artículo
 if query:
     article = openai.Completion.create(
-        engine="davinci-003",
+        engine="text-davinci-003",
         prompt=query,
-        max_tokens=500,
+        max_tokens=1500,
         temperature=0.7,
         top_p=0.9
     )
