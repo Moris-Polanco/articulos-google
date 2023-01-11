@@ -1,3 +1,10 @@
+import openai
+import streamlit as st
+import os
+
+# Autenticación de OpenAI (oculta la clave en una variable de entorno)
+openai.api_key = os.environ.get("OPENAI_API_KEY")
+
 
 
 # Mostrar el título de la app
