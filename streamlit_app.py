@@ -8,7 +8,7 @@ openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 
 # Mostrar el título de la app
-st.title('GPT-3 Text-Davinci-003')
+st.title('Generador de artículos')
 
 # Mostrar una imagen
 # st.image('https://i.imgur.com/3TfTl8A.png')
